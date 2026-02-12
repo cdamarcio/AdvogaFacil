@@ -1,7 +1,5 @@
-# AdvogaSys - Sistema de Gestão Jurídica
-
+# AdvogaFácil - Sistema de Gestão Jurídica
 Este projeto é um sistema de gestão para escritórios de advocacia focado em organização processual, controle de prazos e gestão de clientes. 
-
 O sistema foi projetado para centralizar informações sensíveis com segurança e oferecer automação de consultas processuais.
 
 ## Funcionalidades
