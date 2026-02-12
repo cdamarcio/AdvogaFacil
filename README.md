@@ -26,8 +26,6 @@ O sistema foi projetado para centralizar informações sensíveis com segurança
 * Controle de honorários (fixos e êxito).
 * Lançamento de custas processuais reembolsáveis.
 
----
-
 ## Tecnologias Utilizadas
 
 * **Linguagem:** Python 3.10+
@@ -35,8 +33,6 @@ O sistema foi projetado para centralizar informações sensíveis com segurança
 * **Banco de Dados:** PostgreSQL (Produção) / SQLite (Desenvolvimento)
 * **Estilização:** Bootstrap 5 ou Tailwind CSS
 * **Automação:** Selenium / Beautiful Soup (para raspagem de dados dos tribunais)
-
----
 
 ## Pré-requisitos
 
@@ -46,51 +42,6 @@ Antes de começar, você precisará ter instalado em sua máquina:
 * [Git](https://git-scm.com/)
 * Virtualenv (recomendado)
 
----
-
-## Instalação e Configuração
-
-1. **Clone o repositório:**
-```bash
-git clone https://github.com/seu-usuario/AdvogaSys.git
-cd advogacy-manager
-
-```
-
-2. **Crie e ative o ambiente virtual:**
-```bash
-python -m venv venv
-# Windows:
-.\venv\Scripts\activate
-# Linux/Mac:
-source venv/bin/activate
-
-```
-
-3. **Instale as dependências:**
-```bash
-pip install -r requirements.txt
-
-```
-
-4. **Configure as migrações do banco de dados:**
-```bash
-python manage.py migrate
-
-```
-
-5. **Crie um superusuário (Administrador):**
-```bash
-python manage.py createsuperuser
-
-```
-
-6. **Inicie o servidor:**
-```bash
-python manage.py runserver
-
-```
-
 ## Arquitetura do Banco de Dados (Principais Modelos)
 
 O sistema utiliza uma estrutura relacional para garantir a integridade dos dados:
@@ -98,8 +49,6 @@ O sistema utiliza uma estrutura relacional para garantir a integridade dos dados
 * **Clients:** Dados cadastrais e documentos.
 * **Lawsuits (Processos):** Número CNJ, tribunal, vara e status.
 * **Deadlines (Prazos):** Datas críticas vinculadas a um processo e um responsável.
-
----
 
 ## Segurança e LGPD
 
@@ -109,8 +58,8 @@ O projeto segue as diretrizes da Lei Geral de Proteção de Dados:
 * Logs de auditoria para acesso a documentos sensíveis.
 * Níveis de permissão (Administrador, Advogado, Secretário).
 
----
-
 ## Licença
 
-Este software é de propriedade da KM PROJETOS. O uso ou reprodução sem autorização do desenvolvedor Márcio Rodrigues de Oliveira é estritamente proibida.
+Este software é de propriedade da KM PROJETOS. 
+
+O uso ou reprodução sem autorização do desenvolvedor Márcio Rodrigues de Oliveira é estritamente proibida.
