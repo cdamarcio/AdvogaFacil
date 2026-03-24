@@ -69,7 +69,7 @@ AdvogaFacil/
 
 **Márcio Rodrigues de Oliveira**
 
-Engenheiro de Software
+Desenvolvedor Fullstack
 
 [cda.marcio@gmail.com](mailto:cda.marcio@gmail.com)
 
