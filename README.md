@@ -1,37 +1,50 @@
-# AdvogaFácil - Integração Jurídica Pará
+# AdvogaFácil - Automação Jurídica (Pará)
 
-O **AdvogaFácil** é uma plataforma de automação e gestão processual desenvolvida para unificar o fluxo de trabalho de advogados que atuam nos tribunais do Pará (**TJPA, JFPA, TRE-PA e TRT8**).
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 
-## Objetivo
-Eliminar a necessidade de abrir múltiplos sistemas PJe/Projudi, centralizando consultas, prazos e peticionamentos em uma única interface inteligente.
+O **AdvogaFácil** é uma plataforma de alto desempenho projetada para centralizar o fluxo de trabalho jurídico. O foco principal é a integração inteligente com os sistemas PJe e Projudi dos tribunais do Pará, eliminando a fragmentação de dados e a perda de prazos.
 
-## Tecnologias Utilizadas
-- **Backend:** Python (FastAPI / Django)
-- **Automação:** Playwright & Selenium (Scraping de tribunais)
-- **Banco de Dados:** PostgreSQL & Redis (Cache de sessões)
-- **Segurança:** Criptografia AES-256 e Integração com PJeOffice
+---
 
-AdvogaFacil/
-├── .env                  # Suas credenciais (não enviar ao GitHub)
-├── .gitignore            # Para ignorar venv/ e .env
-├── README.md             # Arquivo principal
-├── CHANGELOG.md          # Histórico de versões
-├── CONTRIBUTING.md       # Guia para colaboradores
-├── LICENSE.md            # Licença MIT
-│
-├── docs/                 # Pasta que criamos os conteúdos
-│   ├── REQUISITOS.md
-│   ├── INSTALL.md
-│   ├── DIAGRAMAS.md
-│   ├── ARQUITETURA.md
-│   ├── DIAGRAMA_CLASSES.md
-│   ├── DIAGRAMA_SEQUENCIA.md
-│   ├── DIAGRAMA_ESTADOS.md
-│   ├── DIAGRAMA_COMPONENTES.md
-│   └── DB_SCHEMA.md
-│
-└── src/                  # Onde ficará seu código Python (FastAPI/Scrapers)
-    └── ...
+## Escopo do Projeto
+O sistema atua como um hub central para:
+* **TJPA** (Tribunal de Justiça do Pará - Projudi)
+* **TRT8** (Tribunal Regional do Trabalho da 8ª Região)
+* **JFPA** (Justiça Federal - Seção Judiciária do Pará)
+* **TRE-PA** (Tribunal Regional Eleitoral do Pará)
 
-## Contato
-Desenvolvido por: **Márcio Rodrigues de Oliveira** cda.marcio@gmail.com
+---
+
+## Funcionalidades Principais
+- [x] **Dashboard Unificado:** Visualize todos os processos em uma única tela.
+- [x] **Sincronização Automática:** Robôs de alta performance que monitoram movimentações 24/7.
+- [x] **Gestão de Prazos:** Cálculo automatizado com base no calendário judiciário paraense.
+- [x] **Peticionamento em Lote:** Envio de documentos via integração com assinadores (PJeOffice/Shodo).
+
+---
+
+## Stack Tecnológica
+* **Linguagem:** Python 3.10+
+* **Framework Web:** FastAPI
+* **Automação:** Playwright (Engines de Scraping)
+* **Banco de Dados:** PostgreSQL com suporte a JSONB
+* **Tarefas Assíncronas:** Celery + Redis
+
+---
+
+## Desenvolvedor
+**Márcio Rodrigues de Oliveira** cda.marcio@gmail.com
+
+---
+# Licença MIT
+
+Copyright (c) 2026 Márcio Rodrigues de Oliveira
+
+A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados, para lidar no Software sem restrições, incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do Software.
+
+O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO.
+
+
