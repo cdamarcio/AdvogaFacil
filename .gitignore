@@ -1,0 +1,51 @@
+# --- AMBIENTE VIRTUAL E DEPENDÊNCIAS ---
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+# Pasta do Playwright (drivers de browsers)
+.playwright/
+
+# --- PYTHON CACHE ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- CONFIGURAÇÕES E SEGURANÇA (CRÍTICO) ---
+.env
+*.env
+secrets.json
+*.pem
+*.pfx
+*.p12
+# Não subir certificados digitais de teste
+certs/
+
+# --- BANCO DE DADOS ---
+*.db
+*.sqlite3
+# Se usar PostgreSQL local via Docker, ignorar a pasta de dados
+pgdata/
+
+# --- LOGS E TEMPORÁRIOS ---
+*.log
+logs/
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+
+# --- IDEs E EDITORES ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- DJANGO/FASTAPI ESPECÍFICO ---
+static/
+media/
+staticfiles/

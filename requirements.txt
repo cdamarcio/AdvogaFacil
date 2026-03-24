@@ -1,0 +1,28 @@
+# --- Framework Web & API ---
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+python-multipart==0.0.9
+
+# --- Automação e Scraping (Tribunais) ---
+playwright==1.42.0
+beautifulsoup4==4.12.3
+lxml==5.1.0
+requests==2.31.0
+
+# --- Banco de Dados ---
+sqlalchemy==2.0.28
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# --- Segurança e Criptografia (Certificados Digitais) ---
+cryptography==42.0.5
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# --- Tarefas em Background (Sincronização Assíncrona) ---
+celery==5.3.6
+redis==5.0.3
+
+# --- Utilitários ---
+python-dotenv==1.0.1
+pydantic[email]==2.6.3
