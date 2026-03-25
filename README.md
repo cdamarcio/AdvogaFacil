@@ -75,9 +75,9 @@ Desenvolvedor Fullstack
 
 ---
 
-# MIT License
+### MIT License
 
-# Copyright (c) 2026 MARCIO RODRIGUES DE OLIVEIRA
+### Copyright (c) 2026 MARCIO RODRIGUES DE OLIVEIRA
 
 É concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia
 deste software e arquivos de documentação associados (o "Software"), para lidar
